@@ -22,7 +22,7 @@ docker exec -it spark-master spark-submit --master spark://spark-master:7077 mai
 docker cp spark-master:/opt/bitnami/spark/not_optimized_num_nodes_1.png images
 ```
 
-![](images/not_optimized_num_nodes_1.png)
+![](./images/not_optimized_num_nodes_1.png)
 
 
 For optimized run use the following command
@@ -31,7 +31,7 @@ docker exec -it spark-master spark-submit --master spark://spark-master:7077 mai
 
 docker cp spark-master:/opt/bitnami/spark/optimized_num_nodes_1.png images
 ```
-![](images/optimized_num_nodes_1.png)
+![](./images/optimized_num_nodes_1.png)
 
 ```bash
 docker-compose -f docker-compose.yml down
@@ -58,7 +58,7 @@ docker exec -it spark-master spark-submit --master spark://spark-master:7077 mai
 
 docker cp spark-master:/opt/bitnami/spark/not_optimized_num_nodes_3.png images
 ```
-![](images/not_optimized_num_nodes_3.png)
+![](./images/not_optimized_num_nodes_3.png)
 
 For optimized run use the following command
 ```bash
@@ -67,7 +67,7 @@ docker exec -it spark-master spark-submit --master spark://spark-master:7077 mai
 docker cp spark-master:/opt/bitnami/spark/optimized_num_nodes_3.png images
 ```
 
-![](images/optimized_num_nodes_3.png)
+![](./images/optimized_num_nodes_3.png)
 
 ```bash
 docker-compose -f docker-compose-3d.yml down
